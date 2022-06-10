@@ -1,0 +1,59 @@
+nav
+{
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    padding: 3px;
+    box-shadow: 4px solid #444;
+    background-color: rgba(255, 255, 255, 0.15);   
+    filter: blur(.5px);
+    filter: contrast(5px);
+}
+.venta
+{
+    padding: 3px;
+    border-radius: 10px;
+
+    text-align: center;
+    box-shadow: 4px solid #444;
+    background-color: rgba(255, 255, 255, 0.15);   
+    filter: blur(.5px);
+    filter: contrast(5px);
+
+}
+footer
+{
+    text-align: left;
+
+}
+body
+{
+    background-image: url(above-aerial-background-beautiful-beauty-botanical-1420065-pxhere.com.jpg);
+}
+.Form
+{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    
+
+}
+form
+{
+    width: 500px;
+    background-color: none;
+    height: auto;
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    margin: center;
+    box-shadow: 4px solid #444;
+    background-color: rgba(255, 255, 255, 0.15);   
+    filter: blur(.5px);
+    filter: contrast(5px);
+}
+footer
+{
+    text-align: center;
+}

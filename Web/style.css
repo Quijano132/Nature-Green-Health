@@ -1,0 +1,233 @@
+#grid-container {
+    display: grid;
+    background: #666;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "main main main"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer"
+    "footer footer footer";
+    height: 250vh;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    border: #000 solid 0.5px;
+}
+
+#nav-container {
+    background: #222;
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.box:hover {
+    background: #1e1e1e;
+    color: #b8d7c4;
+}
+
+.box {
+    padding: 15px;
+    display: grid;
+    place-content: center;
+}
+
+.box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#img-container {
+    width: 60px;
+    height: 20px;
+    display: grid;
+    place-content: center;
+    object-fit: contain;
+}
+
+
+#title {
+    display: grid;
+    place-content: center;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#header-container {
+    grid-area: header;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(18, 64, 71);  
+}
+
+#banner-container {
+    padding-top: 15px;
+}
+
+#form-container {
+    display: grid;
+    place-content: center;
+    padding: 15px;
+}
+
+#form-container input {
+    width: 750px;
+    outline: none;
+    border: none;
+}
+
+#main-container {
+    background: rgb(255, 255, 255);
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-main {
+    height: 10px;
+    width: 50%;
+    height: 33%;
+    display: flex;
+    border: #b8d7c4 solid 5px;
+}
+
+
+.img-section {
+    width: 40%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    background: #fff;
+    transition: all .5s;
+}
+
+.img-section:hover {
+    width: 42%;
+    border: solid 1px rgb(227, 239, 238);
+}
+
+
+.img-section img {
+    width: 200px;
+}
+
+.info {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    transition: 1s;
+}
+
+.info:hover {
+    background: #edf1ed;
+}
+
+.button-class {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(141, 255, 93);
+    border: solid rgb(33, 44, 36) 1px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.button-class:hover {
+    width: 82px;
+    height: 32px;
+    background-color: rgb(118, 255, 161);
+}
+
+.button-class2 {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(155, 247, 255);
+    border: solid rgb(33, 44, 36) 1px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.button-class2:hover {
+    width: 82px;
+    height: 32px;
+    background-color: rgb(91, 255, 236);
+}
+
+#footer-container {
+    background: #222;
+    grid-area: footer;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #0e2332;
+}
+
+.box-footer {
+    width: 33%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.box-footer:hover {
+    background-color: #152b3e;;
+}
